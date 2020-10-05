@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin-top: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 1;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.selfImg {
+  width: 15%;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.br {
+  background-color: white;
+}
+
+.index {
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: .005;
+}
+
+.contact-btn {
+  -moz-box-shadow: inset 0px 1px 0px 0px #E4F9F5;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #E4F9F5;
+  box-shadow: inset 0px 1px 0px 0px #E4F9F5;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #66BFBF), color-stop(1, #11999E));
+  background: -moz-linear-gradient(center top, #66BFBF 5%, #11999E 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66BFBF', endColorstr='#11999E');
+  background-color: #66BFBF;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #528009;
+}
+
+.contact-btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11999E), color-stop(1, #66BFBF));
+  background: -moz-linear-gradient(center top, #11999E 5%, #66BFBF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999E', endColorstr='#66BFBF');
+  background-color: #11999E;
+}
+
+.contact-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  height: 200px;
+  width: auto;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.cpu {
+  height: 600px;
+  width: auto;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.web-link {
+  text-decoration: none;
+  color: #11999E;
+  display: inline;
+  font-size: 100%;
+  margin: 10px 20px;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: #11999E;
+  display: inline;
+  font-size: 100%;
+  margin: 10px 20px;
+}
+
+.book {
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-pic {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.work {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-footer {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color:#EAF6F6;
+}
