@@ -193,4 +193,5 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: grey;
   color:#EAF6F6;
+  width:inherit;
 }
